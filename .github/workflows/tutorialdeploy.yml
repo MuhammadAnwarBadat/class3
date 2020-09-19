@@ -18,4 +18,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ bootcampclass3-anwar.surge.sh --token ${{ secrets.SURGE_TOKEN2 }}
+      run: surge ./bootcampclass3-anwar.surge.sh --token ${{ secrets.SURGE_TOKEN2 }}
